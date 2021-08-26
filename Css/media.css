@@ -46,6 +46,9 @@
         width: 90%;
         margin: auto;
     }
+    .header-img {
+        display: none;
+    }
 }
 
 

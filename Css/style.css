@@ -17,7 +17,11 @@ body {
     border: 1.5px solid #BF0603 !important;
 }
 
-.btn {}
+.btn-outline-light:hover {
+    background-color: #BF0603 !important;
+    border: #BF0603;
+    color: #f9f9f9 !important;
+}
 
 .headings {
     display: flex;
@@ -172,7 +176,7 @@ header {
 }
 
 .header-container {
-    height: 78vh;
+    height: 81vh;
 }
 
 .header-img {
@@ -190,6 +194,7 @@ header {
     height: 100%;
     display: flex;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .header-content {}
@@ -446,6 +451,50 @@ header {
 .event-heading {
     font-size: 20px;
     font-weight: 600;
+}
+
+
+/*===========================================================*/
+
+
+/*AWARDS*/
+
+.award-section {
+    background: url("../assets/event1.png") rgba(0, 0, 0, 0.753) no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: center;
+}
+
+.award-detail {
+    margin-top: 15px;
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.award-company {
+    color: #BF0603;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+
+/*===========================================================*/
+
+
+/*ABOUT US*/
+
+.about-section {
+    background-color: #000;
+    color: #f9f9f9;
+}
+
+.about-img-div img {
+    width: 100%;
+    border-radius: 5px;
 }
 
 
@@ -706,6 +755,149 @@ header {
 
 
 /*==============================================================*/
+
+
+/*FOOTER  ANIMATION*/
+
+@keyframes wheel {
+    0% {
+        transform: rotate(0deg)
+    }
+    35% {
+        transform: rotate(-90deg)
+    }
+    36%,
+    56% {
+        transform: rotate(-180deg)
+    }
+    100% {
+        transform: rotate(-359deg)
+    }
+}
+
+@keyframes moving {
+    0% {
+        right: -80em;
+        animation-timing-function: ease-out;
+    }
+    35% {
+        right: 0;
+    }
+    36%,
+    56% {
+        right: 0;
+        animation-timing-function: ease-in;
+    }
+    100% {
+        right: 120%;
+    }
+}
+
+@keyframes stableWheel {
+    from {
+        transform: translateY(-.0em);
+    }
+    to {
+        transform: translateY(-.0em);
+    }
+}
+
+.car {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    position: relative;
+    width: 600px;
+    height: 150px;
+    overflow: hidden;
+    animation: moving 10s linear -2s infinite;
+}
+
+
+/* .carbody{
+     animation: carmove 3.1s infinite linear;
+     background-size: cover;
+     height: 271px;
+     position: relative; 
+     width: 600px;
+     z-index: 125;
+   }
+    */
+
+.weel {
+    animation: wheel 0.7s infinite linear;
+    background: url('https://i.stack.imgur.com/0Osjx.png') 0 0;
+    height: 85px;
+    position: absolute;
+    top: 27%;
+    width: 85px;
+    z-index: 200;
+}
+
+.weel1 {
+    left: 85px;
+}
+
+.weel2 {
+    left: 454px;
+}
+
+
+/*animations*/
+
+@keyframes carmove {
+    0% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(1px)
+    }
+    29% {
+        transform: translateY(2px)
+    }
+    33% {
+        transform: translateY(3px)
+    }
+    47% {
+        transform: translateY(0px)
+    }
+    58% {
+        transform: translateY(1px)
+    }
+    62% {
+        transform: translateY(2px)
+    }
+    66% {
+        transform: translateY(3px)
+    }
+    75% {
+        transform: translateY(1px)
+    }
+    100% {
+        transform: translateY(0px)
+    }
+}
+
+body {
+    -webkit-animation: color-fade 10s infinite;
+    -moz-animation: color-fade 10s infinite;
+    animation: color-fade 10s infinite;
+}
+
+
+/* @-webkit-keyframes color-fade {
+     0% { background: #9a5342; }
+     25% { background: #fffc0c; }
+     50% { background: #e46d00; }
+     75% { background: #ff3506; }
+     100% { background: #9a5342; }
+   }
+    */
+
+.stopedWeel {
+    animation: stableWheel .2s linear infinite alternate;
+}
 
 
 /*============================================================================*/

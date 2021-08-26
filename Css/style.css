@@ -11,15 +11,15 @@ body {
 }
 
 .red2 {
-    background-color: #BF0603 !important;
+    background-color: #FF0000 !important;
     color: #f9f9f9 !important;
     outline: none !important;
-    border: 1.5px solid #BF0603 !important;
+    border: 1.5px solid #FF0000 !important;
 }
 
 .btn-outline-light:hover {
-    background-color: #BF0603 !important;
-    border: #BF0603;
+    background-color: #FF0000 !important;
+    border: #FF0000;
     color: #f9f9f9 !important;
 }
 
@@ -34,8 +34,10 @@ body {
 
 .headings h4 {
     width: 40%;
-    color: #8D0801;
+    color: #FF0000;
     height: 100%;
+    font-family: serif;
+    font-weight: 800;
 }
 
 .headings p {
@@ -169,7 +171,7 @@ body {
 header {
     width: 100vw !important;
     min-height: 100vh;
-    background-image: url("../assets/bg2.png");
+    background-image: url("../assets/bg111.png");
     background-size: cover;
     background-position: right;
     color: #f9f9f9;
@@ -213,7 +215,7 @@ header {
 
 .icon-div i {
     font-size: 40px;
-    color: #BF0603;
+    color: #FF0000;
 }
 
 .features-headings {
@@ -227,7 +229,7 @@ header {
 .features-headings h4 {
     width: 40%;
     border-right: 1.5px rgb(161, 161, 161) solid;
-    color: #8D0801;
+    color: #FF0000;
     height: 100%;
 }
 
@@ -256,8 +258,8 @@ header {
 
 .gallery-div {
     display: flex;
-    width: 85vw;
-    margin-left: 15%;
+    width: 85%;
+    margin: auto;
     overflow-x: hidden;
 }
 
@@ -282,7 +284,7 @@ header {
     font-weight: 700 !important;
     border-left: none !important;
     padding-left: 20px !important;
-    color: #BF0603 !important;
+    color: #FF0000 !important;
 }
 
 .gallery-page-link {
@@ -293,7 +295,7 @@ header {
 
 .gallery-page-link a {
     text-decoration: none;
-    color: #BF0603;
+    color: #FF0000;
     margin-right: 15%;
 }
 
@@ -343,7 +345,7 @@ header {
 }
 
 .plan-subtext {
-    color: #BF0603;
+    color: #FF0000;
     margin-bottom: 0;
 }
 
@@ -359,7 +361,7 @@ header {
 }
 
 .rupees-icon {
-    color: #BF0603;
+    color: #FF0000;
     font-size: 18px;
     font-weight: 600;
 }
@@ -371,7 +373,7 @@ header {
 }
 
 .plan-div ul li i {
-    color: #BF0603;
+    color: #FF0000;
     font-size: 14px;
 }
 
@@ -424,11 +426,11 @@ header {
     font-weight: 700 !important;
     border-left: none !important;
     padding-left: 20px !important;
-    color: #BF0603 !important;
+    color: #FF0000 !important;
 }
 
 .event-date {
-    color: #BF0603;
+    color: #FF0000;
 }
 
 .event-heading {
@@ -459,7 +461,7 @@ header {
 }
 
 .award-company {
-    color: #BF0603;
+    color: #FF0000;
     font-weight: 800;
     font-size: 18px;
 }
@@ -496,7 +498,8 @@ header {
 }
 
 .testimonial-section .container {
-    max-width: 800px;
+    max-width: 1200px !important;
+    margin: auto;
 }
 
 .testimonial-buttons {
@@ -505,9 +508,14 @@ header {
     height: 100%;
 }
 
+.next-btn {
+    justify-content: flex-end;
+}
+
 .testimonial-buttons .customPrevBtn,
 .customNextBtn {
     color: #fff !important;
+    font-size: 30px;
 }
 
 .testimonial-section .container .owl-theme img {
@@ -521,13 +529,17 @@ header {
     font-size: 23px;
     font-weight: 500;
     margin-bottom: 5px;
+    font-family: serif;
+    letter-spacing: 0.8px;
 }
 
 .designation {
     font-size: 20px;
-    color: #BF0603;
+    color: #FF0000;
     font-weight: 700;
     margin-bottom: 0;
+    font-family: serif;
+    letter-spacing: 0.8px;
 }
 
 
@@ -554,7 +566,7 @@ header {
     font-weight: 700 !important;
     border-left: none !important;
     padding-left: 20px !important;
-    color: #BF0603 !important;
+    color: #FF0000 !important;
 }
 
 .news-container {
@@ -620,7 +632,7 @@ header {
 }
 
 .news-date {
-    color: #BF0603;
+    color: #FF0000;
     font-weight: 600;
     margin-bottom: 7px;
 }
@@ -631,7 +643,7 @@ header {
 }
 
 .news-card p a {
-    color: #BF0603;
+    color: #FF0000;
 }
 
 
@@ -681,7 +693,7 @@ header {
 }
 
 .my-btn {
-    background-color: #BF0603;
+    background-color: #FF0000;
 }
 
 .footer a {
@@ -727,7 +739,7 @@ header {
 }
 
 .footer form .btn i {
-    color: #BF0603 !important;
+    color: #FF0000 !important;
     margin: 3px 0;
     font-size: 18px;
 }
@@ -745,127 +757,7 @@ header {
 /*==============================================================*/
 
 
-/*FOOTER  ANIMATION*/
-
-@keyframes wheel {
-    0% {
-        transform: rotate(0deg)
-    }
-    35% {
-        transform: rotate(-90deg)
-    }
-    36%,
-    56% {
-        transform: rotate(-180deg)
-    }
-    100% {
-        transform: rotate(-359deg)
-    }
-}
-
-@keyframes moving {
-    0% {
-        right: -80em;
-        animation-timing-function: ease-out;
-    }
-    35% {
-        right: 0;
-    }
-    36%,
-    56% {
-        right: 0;
-        animation-timing-function: ease-in;
-    }
-    100% {
-        right: 120%;
-    }
-}
-
-@keyframes stableWheel {
-    from {
-        transform: translateY(-.0em);
-    }
-    to {
-        transform: translateY(-.0em);
-    }
-}
-
-.car {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    position: relative;
-    width: 600px;
-    height: 150px;
-    overflow: hidden;
-    animation: moving 10s linear -2s infinite;
-}
-
-
-/* .carbody{
-     animation: carmove 3.1s infinite linear;
-     background-size: cover;
-     height: 271px;
-     position: relative; 
-     width: 600px;
-     z-index: 125;
-   }
-    */
-
-.weel {
-    animation: wheel 0.7s infinite linear;
-    background: url('https://i.stack.imgur.com/0Osjx.png') 0 0;
-    height: 85px;
-    position: absolute;
-    top: 27%;
-    width: 85px;
-    z-index: 200;
-}
-
-.weel1 {
-    left: 85px;
-}
-
-.weel2 {
-    left: 454px;
-}
-
-
 /*animations*/
-
-@keyframes carmove {
-    0% {
-        transform: translateY(0px);
-    }
-    25% {
-        transform: translateY(1px)
-    }
-    29% {
-        transform: translateY(2px)
-    }
-    33% {
-        transform: translateY(3px)
-    }
-    47% {
-        transform: translateY(0px)
-    }
-    58% {
-        transform: translateY(1px)
-    }
-    62% {
-        transform: translateY(2px)
-    }
-    66% {
-        transform: translateY(3px)
-    }
-    75% {
-        transform: translateY(1px)
-    }
-    100% {
-        transform: translateY(0px)
-    }
-}
 
 body {
     -webkit-animation: color-fade 10s infinite;
@@ -882,10 +774,6 @@ body {
      100% { background: #9a5342; }
    }
     */
-
-.stopedWeel {
-    animation: stableWheel .2s linear infinite alternate;
-}
 
 
 /*============================================================================*/
@@ -914,6 +802,10 @@ body {
     margin: 0;
     padding: 10%;
     height: 100% !important;
+}
+
+.content2 p i {
+    color: #FF0000;
 }
 
 .contact-form {}

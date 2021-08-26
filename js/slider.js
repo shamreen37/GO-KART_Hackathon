@@ -94,14 +94,8 @@ owl.owlCarousel({
         }
     }
 });
-owl.on('mousewheel', '.owl-stage', function(e) {
-    if (e.deltaY > 0) {
-        owl.trigger('next.owl', [100]);
-    } else {
-        owl.trigger('prev.owl', [100]);
-    }
-    e.preventDefault();
-});
+
+
 
 /*=========================================================================*/
 

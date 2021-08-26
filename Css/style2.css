@@ -9,7 +9,7 @@
 }
 
 .fw1-bold {
-    color: #BF0603;
+    color: #FF0000;
     letter-spacing: 5px !important;
     font-size: 2.5rem;
 }
@@ -44,7 +44,7 @@
     padding: 1.5rem;
     font-weight: 800;
     border-radius: 0 0 0.35em 0.35em;
-    background-color: #bf0603bb;
+    background-color: #FF0000;
     color: white;
     transition: all 0.25s ease-in-out;
 }
@@ -90,7 +90,7 @@
         position: relative;
         display: block;
         background-color: white;
-        color: #BF0603;
+        color: #FF0000;
     }
 }
 
@@ -101,13 +101,13 @@
 /* NEWS PAGE */
 
 .outline-red {
-    border: 1px solid #BF0603;
+    border: 1px solid #FF0000;
     color: #fff;
 }
 
 .outline-red:hover {
-    background-color: #BF0603 !important;
-    border-color: #BF0603 !important;
+    background-color: #FF0000 !important;
+    border-color: #FF0000 !important;
 }
 
 .news,
@@ -155,7 +155,7 @@ hr {
     display: none;
     width: 100%;
     height: 100%;
-    background-color: #bf06039a;
+    background-color: #FF0000;
     color: white;
     transition: all 0.5s ease-in-out;
     padding: 100px;
@@ -169,7 +169,7 @@ hr {
     display: none;
     width: 100%;
     height: 100%;
-    background-color: #bf06039a;
+    background-color: #FF0000;
     color: white;
     transition: all 0.5s ease-in-out;
     padding: 100px;
@@ -200,23 +200,23 @@ hr {
 
 .news-right a {
     text-decoration: none;
-    color: #BF0603;
+    color: #FF0000;
 }
 
 .news-right a:hover {
-    color: #8D0801;
+    color: #FF0000;
 }
 
 
 /*
 button {
-    color: #BF0603 !important;
-    border-color: #BF0603 !important;
+    color: #FF0000 !important;
+    border-color: #FF0000 !important;
 }
 
 button:hover {
     color: white !important;
-    background-color: #BF0603!important;
+    background-color: #FF0000!important;
 }
 */
 
@@ -237,11 +237,11 @@ button:hover {
 
 .achieve-right-content a {
     text-decoration: none;
-    color: #BF0603;
+    color: #FF0000;
 }
 
 .achieve-right-content a:hover {
-    color: #8D0801;
+    color: #FF0000;
 }
 
 .achieve-right-content .card img {
@@ -288,18 +288,20 @@ button:hover {
 }
 
 .videos a:hover {
-    color: #8D0801;
+    color: #FF0000;
 }
 
 .gradient-underline {
     padding-bottom: 4px;
     position: relative;
     text-decoration: none;
+    font-family: serif;
+    font-weight: 800;
 }
 
 .gradient-underline::after {
     background: #f00;
-    background: linear-gradient(to right, #BF0603 1%, transparent 100%);
+    background: linear-gradient(to right, #FF0000 1%, transparent 100%);
     content: "";
     position: absolute;
     bottom: 0;
@@ -367,7 +369,8 @@ button:hover {
 
 .navbar-1 {
     background-color: #000000;
-    background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+    /*  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);*/
+    background-image: linear-gradient(to right, #000000, #111111, #1c1c1c, #272727, #323232, #323232, #323232, #323232, #272727, #1c1c1c, #111111, #000000);
 }
 
 .navbar-1 h3 {
@@ -692,7 +695,7 @@ button:hover {
 .info .name,
 .info .position,
 .info .email {
-    background-image: linear-gradient(to right, #BF0603, #8d0801);
+    background-image: linear-gradient(to right, #FF0000, #FF0000);
     color: #f9f9f9;
 }
 

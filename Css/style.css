@@ -662,6 +662,11 @@ header {
     font-size: 14px;
 }
 
+.footer-logo-img img {
+    height: 80px !important;
+    width: auto !important;
+}
+
 .footer p {
     color: #f9f9f9;
 }

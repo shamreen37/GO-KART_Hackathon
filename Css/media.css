@@ -11,6 +11,10 @@
     .header-img {
         display: none;
     }
+    .plan-div {
+        width: 90%;
+        margin: auto;
+    }
 }
 
 
@@ -48,6 +52,9 @@
     .image-set .card {
         width: 90%;
         margin: auto;
+    }
+    .plan-div {
+        width: 85% !important;
     }
 }
 

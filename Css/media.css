@@ -42,6 +42,10 @@
     .row-last-col {
         padding-bottom: 8px;
     }
+    .image-set .card {
+        width: 90%;
+        margin: auto;
+    }
 }
 
 

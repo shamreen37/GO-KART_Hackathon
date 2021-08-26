@@ -33,6 +33,15 @@
         max-width: 300px !important;
         margin: auto !important;
     }
+    .row-col,
+    .row-last-col {
+        border-bottom: 1px solid #414141;
+        margin-bottom: 5px;
+        padding-left: 10px;
+    }
+    .row-last-col {
+        padding-bottom: 8px;
+    }
 }
 
 

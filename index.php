@@ -60,8 +60,8 @@
                                                 <span id="minutes"></span>
                                                 <span id="seconds"></span>
                                             </div>
-                                            <a href="register.php"> <button class="btn btn-light red2 me-2 mb-2" type="submit">Register Now</button></a>
-                                            <a href="event.html"> <button class="btn btn-outline-light me-2 mb-2" type="submit">View Details</button></a>
+                                            <a href="registration.php"> <button class="btn btn-light red2 me-2 mb-2" type="submit">Register Now</button></a>
+                                            <a href="event.php"> <button class="btn btn-outline-light me-2 mb-2" type="submit">View Details</button></a>
                                         </div>
 
                                     </div>
@@ -209,8 +209,8 @@
                             <p class="">Go-Kart Racing Club Bhopal, Madhya Pradesh</p>
                             <p class="">31 August, 2021 to 30th September, 2021</p>
 
-                            <a href="register.php"> <button class="btn btn-light red2 me-2" type="submit">Register Now</button></a>
-                            <a href="event.html"> <button class="btn btn-outline-dark me-2" type="submit">View Details</button></a>
+                            <a href="registeration.php"> <button class="btn btn-light red2 me-2" type="submit">Register Now</button></a>
+                            <a href="event.php"> <button class="btn btn-outline-dark me-2" type="submit">View Details</button></a>
                         </p>
                     </div>
                 </div>

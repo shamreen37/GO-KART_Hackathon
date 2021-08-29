@@ -99,6 +99,9 @@
         display: block;
         margin: auto;
     }
+    .success-div {
+        width: 90vw;
+    }
 }
 
 

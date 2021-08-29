@@ -10,8 +10,8 @@ $contact= $_POST['contact'];
 
 
 
-    $submit_query="INSERT INTO registration_member(full_name,team_code,team_name,email,contact) "
-            . "values('$full_name',$team_code,'$team_name','$email',$contact)";
+    $submit_query="INSERT INTO registration_member(id,full_name,team_code,team_name,email,contact) "
+            . "values(null,'$full_name',$team_code,'$team_name','$email',$contact)";
 $user_registration_submit= mysqli_query($con,$submit_query) or die(mysqli_error($con));
 
 

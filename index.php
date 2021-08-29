@@ -23,14 +23,14 @@
 </head>
 
 <body>
-    <!--PRELOADER
+    <!--PRELOADER-->
     <div class="loader-bg">
         <div class="loader">
 
         </div>
         <img src="assets/loader.gif" alt="">
     </div>
--->
+
 
     <!-- Modal -->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -84,7 +84,7 @@
     <section class="navbar-section">
         <div class="navbar-container nav-flex container-fluid">
             <div class="logo">
-                <a href="index.html"> <img src="assets/logo-img.png" alt="" class="logo"></a>
+                <a href="index.php"> <img src="assets/logo-img.png" alt="" class="logo"></a>
 
             </div>
             <div class="navbar">
@@ -97,13 +97,13 @@
 
                 <ul id="nav-lists">
                     <li class="close"><span onclick="Hide()">×</span></li>
-                    <li><a class="underline-hover-1" href="index.html">Home</a></li>
-                    <li><a class="underline-hover-1" href="about.html">About</a></li>
-                    <li><a class="underline-hover-1" href="events.html">Events <span class="new">New</span></a></li>
-                    <li><a class="underline-hover-1" href="news.html">News</a></li>
-                    <li><a class="underline-hover-1" href="gallery.html">Gallery</a></li>
-                    <li><a class="underline-hover-1" href="campus.html">Campus & Facilities</a></li>
-                    <li><a class="underline-hover-1" href="contact.html">Contact</a></li>
+                    <li><a class="underline-hover-1" href="index.php">Home</a></li>
+                    <li><a class="underline-hover-1" href="about.php">About</a></li>
+                    <li><a class="underline-hover-1" href="events.php">Events <span class="new">New</span></a></li>
+                    <li><a class="underline-hover-1" href="news.php">News</a></li>
+                    <li><a class="underline-hover-1" href="gallery.php">Gallery</a></li>
+                    <li><a class="underline-hover-1" href="campus.php">Campus & Facilities</a></li>
+                    <li><a class="underline-hover-1" href="contact.php">Contact</a></li>
                 </ul>
 
             </div>
@@ -134,8 +134,8 @@
                             </button>
                             <h2 data-aos="fade-up" class="red">Let's set the pace together.</h2>
                             <p data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium excepturi quod id eius quo illum optio dolores tenetur doloremque nemo?</p>
-                            <a href="contact.html"> <button class="btn btn-light red2 me-2" type="submit">Join Club</button></a>
-                            <a href="about.html"> <button class="btn btn-light" type="submit">View More</button></a>
+                            <a href="contact.php"> <button class="btn btn-light red2 me-2" type="submit">Join Club</button></a>
+                            <a href="about.php"> <button class="btn btn-light" type="submit">View More</button></a>
                             <br>
 
 
@@ -261,7 +261,7 @@
 
         </div>
 
-        <p class="gallery-page-link"> <a href="gallery.html" class="">View More <i class="fas fa-long-arrow-alt-right"></i> </a></p>
+        <p class="gallery-page-link"> <a href="gallery.php" class="">View More <i class="fas fa-long-arrow-alt-right"></i> </a></p>
 
 
 
@@ -630,11 +630,11 @@
                 <div class="col-md-2 col-sm-6 col-xs-12 px-2 text-light">
                     <div class="row-col">
                         <p class="topic text-light pb-3 font2">Quick Links</p>
-                        <p><a href="#">Home</a></p>
-                        <p><a href="#about">About Us</a></p>
-                        <p><a href="#gallery">Gallery</a></p>
-                        <p><a href="#news">Latest News</a></p>
-                        <p><a href="contact.html">Contact Us</a></p>
+                        <p><a href="index.html">Home</a></p>
+                        <p><a href="about.php">About Us</a></p>
+                        <p><a href="gallery.php">Gallery</a></p>
+                        <p><a href="news.php">Latest News</a></p>
+                        <p><a href="contact.php">Contact Us</a></p>
                     </div>
                 </div>
 

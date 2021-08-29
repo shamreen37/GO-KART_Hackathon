@@ -1,6 +1,6 @@
 <?php
 
-$con= mysqli_connect("localhost","root","","go_kart")
+$con= mysqli_connect("remotemysql.com","N765mpbYUe"," Ab3MQoTJuv","N765mpbYUe")
 or die(mysqli_error($con));
 
 ?>

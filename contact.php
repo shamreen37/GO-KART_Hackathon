@@ -38,13 +38,13 @@
 
                 <ul id="nav-lists">
                     <li class="close"><span onclick="Hide()">×</span></li>
-                    <li><a class="underline-hover-1" href="index.html">HOME</a></li>
-                    <li><a class="underline-hover-1" href="about.html">ABOUT</a></li>
-                    <li><a class="underline-hover-1" href="events.html">EVENTS <span class="new">New</span></a></li>
-                    <li><a class="underline-hover-1" href="news.html">NEWS</a></li>
-                    <li><a class="underline-hover-1" href="gallery.html">GALLERY</a></li>
-                    <li><a class="underline-hover-1" href="campus.html">CAMPUS & FACILITIES</a></li>
-                    <li><a class="underline-hover-1" href="contact.html">CONTACT</a></li>
+                    <li><a class="underline-hover-1" href="index.php">HOME</a></li>
+                    <li><a class="underline-hover-1" href="about.php">ABOUT</a></li>
+                    <li><a class="underline-hover-1" href="events.php">EVENTS <span class="new">New</span></a></li>
+                    <li><a class="underline-hover-1" href="news.php">NEWS</a></li>
+                    <li><a class="underline-hover-1" href="gallery.php">GALLERY</a></li>
+                    <li><a class="underline-hover-1" href="campus.php">CAMPUS & FACILITIES</a></li>
+                    <li><a class="underline-hover-1" href="contact.php">CONTACT</a></li>
                 </ul>
 
             </div>
@@ -148,11 +148,11 @@
                 <div class="col-md-2 col-sm-6 col-xs-12 px-2 text-light">
                     <div class="row-col">
                         <p class="topic text-light pb-3 font2">Quick Links</p>
-                        <p><a href="#">Home</a></p>
-                        <p><a href="#about">About Us</a></p>
-                        <p><a href="#gallery">Gallery</a></p>
-                        <p><a href="#news">Latest News</a></p>
-                        <p><a href="contact.html">Contact Us</a></p>
+                        <p><a href="index.php">Home</a></p>
+                        <p><a href="about.php">About Us</a></p>
+                        <p><a href="gallery.php">Gallery</a></p>
+                        <p><a href="news.php">Latest News</a></p>
+                        <p><a href="contact.php">Contact Us</a></p>
                     </div>
                 </div>
 

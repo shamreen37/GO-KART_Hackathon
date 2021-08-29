@@ -95,7 +95,7 @@
                                 </div>
                                 <div class="col-md-6">
 
-                                    <input type="tel" name="licence_id" class="form-control" placeholder="Licence Number" required />
+                                    <input type="tel" name="licence_no" class="form-control" placeholder="Licence Number" required />
                                 </div>
 
                             </div>

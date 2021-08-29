@@ -18,4 +18,4 @@ $user_registration_submit= mysqli_query($con,$submit_query) or die(mysqli_error(
 
 
 
-header('location:registration.php');
+header('location:success.php');

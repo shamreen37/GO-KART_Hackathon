@@ -61,7 +61,7 @@
                                                 <span id="seconds"></span>
                                             </div>
                                             <a href="register.php"> <button class="btn btn-light red2 me-2 mb-2" type="submit">Register Now</button></a>
-                                            <a href="event.html"> <button class="btn btn-outline-light me-2" type="submit">View Details</button></a>
+                                            <a href="event.html"> <button class="btn btn-outline-light me-2 mb-2" type="submit">View Details</button></a>
                                         </div>
 
                                     </div>

@@ -50,7 +50,7 @@
 .carousel-item::before {
     content: '';
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.349);
+    background-color: rgba(0, 0, 0, 0.649);
     top: 0;
     right: 0;
     bottom: 0;

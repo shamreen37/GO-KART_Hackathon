@@ -35,7 +35,7 @@
                     <li class="close"><span onclick="Hide()">×</span></li>
                     <li><a class="underline-hover-1" href="index.html">Home</a></li>
                     <li><a class="underline-hover-1" href="about.html">About</a></li>
-                    <li><a class="underline-hover-1" href="events.html">Events</a></li>
+                    <li><a class="underline-hover-1" href="events.html">Events <span class="new">New</span></a></li>
                     <li><a class="underline-hover-1" href="news.html">News</a></li>
                     <li><a class="underline-hover-1" href="gallery.html">Gallery</a></li>
                     <li><a class="underline-hover-1" href="campus.html">Campus & Facilities</a></li>
@@ -79,8 +79,6 @@
 
 
 
-
-
         <div id="team" class="staff">
 
             <div class="gc">
@@ -93,7 +91,7 @@
 
             <div class="container py-5">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 mb-3">
                         <div class="box" itemscope itemtype="https://schema.org/Person">
                             <div class="image">
                                 <img src="assets/profile1.png" alt="">
@@ -112,7 +110,7 @@
 
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-md-4 mb-3">
                         <div class="box" itemscope itemtype="https://schema.org/Person">
                             <div class="image">
                                 <img src="assets/profile2.png" alt="">
@@ -131,7 +129,7 @@
 
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-md-4 mb-3">
                         <div class="box" itemscope itemtype="https://schema.org/Person">
                             <div class="image">
                                 <img src="assets/profile1.png" alt="">
@@ -150,7 +148,7 @@
 
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-md-4 mb-3">
                         <div class="box" itemscope itemtype="https://schema.org/Person">
                             <div class="image">
                                 <img src="assets/profile2.png" alt="">
@@ -169,7 +167,7 @@
 
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-md-4 mb-3">
                         <div class="box" itemscope itemtype="https://schema.org/Person">
                             <div class="image">
                                 <img src="assets/profile1.png" alt="">
@@ -188,7 +186,7 @@
 
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-md-4 mb-3">
                         <div class="box" itemscope itemtype="https://schema.org/Person">
                             <div class="image">
                                 <img src="assets/profile2.png" alt="">
@@ -296,6 +294,19 @@
     <script src="js/jquery.js"></script>
     <script src="js/owl-carousel.js"></script>
     <script src="js/slider.js"></script>
+
+    <script>
+        var navList = document.getElementById("nav-lists");
+
+        function Show() {
+            navList.classList.add("_Menus-show");
+        }
+
+        function Hide() {
+            navList.classList.remove("_Menus-show");
+        }
+    </script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
 

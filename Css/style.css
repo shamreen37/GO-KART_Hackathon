@@ -62,6 +62,7 @@ img {
     font-family: serif;
     font-weight: 800;
     font-family: myFirstFont;
+    padding-right: 10px;
 }
 
 .headings p {

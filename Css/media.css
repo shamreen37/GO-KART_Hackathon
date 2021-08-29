@@ -47,6 +47,10 @@
         font-size: 2.5rem;
         margin-top: 25px;
     }
+    .race-countdown span {
+        font-size: 1rem !important;
+        padding: 10px !important;
+    }
     .gallery-section .headings {
         max-width: 300px !important;
         margin: auto !important;
@@ -59,7 +63,7 @@
     .row-last-col {
         border-bottom: 1px solid #414141;
         margin-bottom: 5px;
-        padding-left: 10px;
+        padding-left: 12px;
     }
     .row-last-col {
         padding-bottom: 8px;
@@ -89,6 +93,11 @@
     }
     .phone-input-div {
         margin-bottom: 1.5rem;
+    }
+    .party-section img {
+        width: 88%;
+        display: block;
+        margin: auto;
     }
 }
 

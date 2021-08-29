@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="Css/style.css">
     <link rel="stylesheet" href="Css/style3.css">
     <link rel="stylesheet" href="Css/style2.css">
+    <link rel="stylesheet" href="Css/media.css">
     <script src="https://kit.fontawesome.com/ea9cae87cb.js" crossorigin="anonymous"></script>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -63,7 +64,7 @@
                 <img src="https://source.unsplash.com/UuCi7XKh0jU" height="400px" class="d-block w-100" alt="...">
                 <div class="d-flex flex-column carousel-caption d-flex h-100 justify-content-center align-items-center">
                     <h1 class="fw-bolder fs-1 py-lg-3 py-sm-1 font1">UIT MEGA KARTING EVENT 2021</h1>
-                    <p><a href="registration.php"><button type="button" class="btn btn-lg btn-primary rounded-pill mx-lg-3">Register Now</button></a>
+                    <p><a href="registration.php"><button type="button" class="btn btn-lg btn-primary red2 rounded-pill mx-lg-3">Register Now</button></a>
 
                 </div>
             </div>
@@ -79,7 +80,7 @@
                 <img src="https://source.unsplash.com/nvzXUaV8uX4" height="400px" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-flex flex-column h-100 justify-content-center align-items-center">
                     <h1 class="fw-bolder fs-1 py-lg-3 py-sm-1 font1">UIT MEGA KARTING EVENT 2021</h1>
-                    <p><a href="registration.php"><button type="button" class="btn btn-lg btn-primary rounded-pill mx-lg-3">Register Now</button></a>
+                    <p><a href="registration.php"><button type="button" class="btn btn-lg btn-primary red2 rounded-pill mx-lg-3">Register Now</button></a>
 
                 </div>
             </div>
@@ -95,7 +96,7 @@
     </div>
 
     <!--ABOUT-->
-    <section class="about pb-lg-5 mt-lg-5">
+    <section class="about py-5">
         <div class="container">
             <h4 class="fw-bold fs-3 py-3 mb-3 text-dark gradient-underline font1">About The Event</h4>
             <h3 class="my-3 fw-bold text-center"></h3>
@@ -124,7 +125,7 @@
     </section>
 
     <!--JOIN US-->
-    <section class="join pb-lg-5 mt-lg-3 mb-lg-5 ">
+    <section class="join">
         <div class="container py-4">
             <h4 class="fw-bold fs-3 py-3 mb-3 mt-2 text-dark gradient-underline font1">WHY JOIN US?</h4>
             <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo possimus in fuga veritatis sequi maiores, saepe impedit harum delectus doloremque.</p>
@@ -156,8 +157,8 @@
     </section>
 
     <!--AWARDS-->
-    <section class="awards pb-lg-5 mt-2  mt-lg-5">
-        <div class="container">
+    <section class="awards">
+        <div class="container py-4">
             <h4 class="fw-bold fs-3 py-3 mb-3 text-dark gradient-underline font1">EXCITING AWARDS</h4>
             <div class="row mt-5 pt-3 award-row">
                 <div class="col-12  col-sm-4 col-lg-4 h-20 d-flex order-2 order-sm-1 flex-column align-items-center  award-card mt-2">
@@ -413,8 +414,8 @@
 
     <!--PARTY-->
 
-    <section class="party mt-lg-3 pb-lg-5">
-        <div class="container">
+    <section class="party mt-3 ">
+        <div class="container py-4">
             <h4 class="fw-bold fs-3 py-3 mb-3 text-dark gradient-underline font2">After Event Party</h4>
             <p>The thrill doesn’t have to stop when the cars leave the track! The party will be started with the greatest band "the band " performing after the racing event. We will be throwing a party for all the participants at the courtyard by GO-KART.
                 Courtyard by GO-KART is the original and most exclusive after-party that follows uitgkc around the country</p>
@@ -447,10 +448,10 @@
             <h4 class="fw-bold fs-3 py-3 mb-3 text-dark gradient-underline font1">Partners</h4>
             <div class="partner-logo container d-flex flex-row flex-wrap justify-content-lg-between justify-content-sm-center align-items-center py-3">
 
-                <div class="partner1 px-2 px-sm-3 px-lg-2  py-2py-lg-3">
+                <div class="partner1 px-2 px-sm-3 px-lg-2  py-2 py-lg-3">
                     <img src="assets/logo1.png">
                 </div>
-                <div class="partner1 px-2 px-sm-3 px-lg-2  py-2py-lg-3">
+                <div class="partner1 px-2 px-sm-3 px-lg-2  py-2 py-lg-3">
                     <img src="assets/logo2.png">
                 </div>
                 <div class="partner1 px-2 px-sm-3 px-lg-2 py-2 py-lg-3">
@@ -555,16 +556,25 @@
     </footer>
 
 
-    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- JavaScript; -->
+
+    <script>
+        var navList = document.getElementById("nav-lists");
+
+        function Show() {
+            navList.classList.add("_Menus-show");
+        }
+
+        function Hide() {
+            navList.classList.remove("_Menus-show");
+        }
+    </script>
+
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
+
 </body>
 
 </html>

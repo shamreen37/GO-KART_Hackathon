@@ -16,7 +16,7 @@
 .fw1-bold {
     color: #0090D0;
     letter-spacing: 5px !important;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .image-set .card {
@@ -539,6 +539,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: -1000;
 }
 
 .info .name,
@@ -583,31 +584,11 @@ button:hover {
     line-height: 1.4375;
 }
 
-@keyframes opac {
-    from {
-        opacity: 0;
-        transform: translateY(-100px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-h1 {
-    animation: opac 1.2s;
-    animation-timing-function: ease-out;
-    animation-delay: 0.2s;
-}
-
 div {
     display: block;
 }
 
 .droid-description {
-    animation: opac 1.6s;
-    animation-timing-function: ease-out;
-    animation-delay: 0s;
     padding-top: 10px;
 }
 

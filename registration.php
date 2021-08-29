@@ -40,7 +40,7 @@
                     <li class="close"><span onclick="Hide()">×</span></li>
                     <li><a class="underline-hover-1" href="index.html">HOME</a></li>
                     <li><a class="underline-hover-1" href="about.html">ABOUT</a></li>
-                    <li><a class="underline-hover-1" href="events.html">EVENTS</a></li>
+                    <li><a class="underline-hover-1" href="events.html">EVENTS <span class="new">New</span></a></li>
                     <li><a class="underline-hover-1" href="news.html">NEWS</a></li>
                     <li><a class="underline-hover-1" href="gallery.html">GALLERY</a></li>
                     <li><a class="underline-hover-1" href="campus.html">CAMPUS & FACILITIES</a></li>
@@ -251,6 +251,18 @@
 
         </script>
 
+
+<script>
+        var navList = document.getElementById("nav-lists");
+
+        function Show() {
+            navList.classList.add("_Menus-show");
+        }
+
+        function Hide() {
+            navList.classList.remove("_Menus-show");
+        }
+    </script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
         />
 </body>

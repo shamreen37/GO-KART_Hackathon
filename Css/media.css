@@ -1,4 +1,4 @@
-@media screen and (max-width:768px) {
+@media screen and (max-width:769px) {
     .plan-img-div::after {
         font-size: 5rem;
     }
@@ -20,6 +20,15 @@
     }
     .header-content p {
         font-size: 20px;
+    }
+    .registration-img-div {
+        width: 30% !important;
+        background-image: url("../assets/gallery2.png");
+        background-size: cover;
+        background-position: center;
+    }
+    .registration-right-div {
+        width: 70% !important;
     }
 }
 
@@ -71,6 +80,15 @@
     }
     .headings h4 {
         font-size: 1rem !important;
+    }
+    .registration-img-div {
+        display: none !important;
+    }
+    .registration-right-div {
+        width: 100% !important;
+    }
+    .phone-input-div {
+        margin-bottom: 1.5rem;
     }
 }
 

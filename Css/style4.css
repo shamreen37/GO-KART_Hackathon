@@ -1,0 +1,102 @@
+.registration .accordion-button:focus {
+    box-shadow: none!important;
+}
+
+
+/* .about-image{
+        object-fit: cover;
+        height:300px;
+        overflow: hidden;
+    } */
+
+
+/* awards */
+
+.award-card {
+    position: relative;
+    padding: 10px;
+}
+
+.award-ribbon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.venue iframe {
+    width: 100%;
+}
+
+.venue {
+    padding: 15px;
+    border-radius: 10px !important;
+}
+
+.award-main {
+    padding: 25px 15px;
+    border-radius: 10px !important;
+    width: 100%;
+    height: 100%;
+}
+
+.join {
+    background-color: #f3f3f3;
+}
+
+.about-content1 {
+    background-color: #fff;
+}
+
+.carousel-item::before {
+    content: '';
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.349);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+/* party */
+
+.party-section {
+    overflow: hidden;
+}
+
+.party-section img {
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 10px !important;
+}
+
+
+/* partners */
+
+.partners img {
+    height: 80px;
+    width: 80px;
+}
+
+.partners,
+.registration {
+    background-color: #f3f3f3;
+}
+
+@media(max-width:1000px) {
+    .party-section {
+        height: auto;
+    }
+    .party-section img {
+        height: 300px;
+    }
+}
+
+@media(max-width:576px) {
+    .award-row {
+        --bs-gutter-x: 0 rem !important;
+    }
+    .partner-logo {
+        justify-content: center !important;
+    }
+}

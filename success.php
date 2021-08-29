@@ -28,7 +28,7 @@
    <h4 class="fw-bold fs-3 py-3 mb-3 text-dark gradient-underline font1">You have Registered Sucessfully!</h4>
    <p>Your team code is <?php ?></p>
    <p>Download the RuleBook and Read all the details carefully! </p>
-   <button class="btn btn-primary red2"> Back to Home</button>
+   <a href="index.php"><button class="btn btn-primary red2"> Back to Home</button></a>
    </div>
 
 </section>

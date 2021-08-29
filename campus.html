@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="Css/style2.css">
     <link rel="stylesheet" href="Css/style.css">
     <link rel="stylesheet" href="Css/media.css">
-
+    <link rel="stylesheet" href="Css/style3.css">
+    <link rel="stylesheet" href="Css/data-aos.css">
     <!-- fontawesome cdn -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
@@ -25,25 +26,34 @@
 <body>
 
     <!-- navbar -->
-    <section class="navbar-1">
-        <div class="nav-container nav-flex">
-            <img src="assets/logo-img.png" alt="" class="logo">
-            <nav>
-                <input class="menu-btn" type="checkbox" id="menu-btn" />
-                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-                <ul class="menu ">
-                    <li><a class="underline-hover-1" href="index.html">HOME</a></li>
+    <section class="navbar-section">
+        <div class="navbar-container nav-flex container-fluid">
+            <div class="logo">
+                <img src="assets/logo-img.png" alt="" class="logo">
+
+            </div>
+            <div class="navbar">
+
+                <div class="icon-bar" onclick="Show()">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
+
+                <ul id="nav-lists">
+                    <li class="close"><span onclick="Hide()">×</span></li>
+                    <li><a class="underline-hover-1" href="#">HOME</a></li>
                     <li><a class="underline-hover-1" href="about.html">ABOUT</a></li>
+                    <li><a class="underline-hover-1" href="events.html">EVENTS</a></li>
                     <li><a class="underline-hover-1" href="news.html">NEWS</a></li>
                     <li><a class="underline-hover-1" href="gallery.html">GALLERY</a></li>
                     <li><a class="underline-hover-1" href="campus.html">CAMPUS & FACILITIES</a></li>
                     <li><a class="underline-hover-1" href="contact.html">CONTACT</a></li>
                 </ul>
-            </nav>
+
+            </div>
         </div>
-
     </section>
-
 
     <!-- Campus and Facilities -->
 
@@ -56,11 +66,11 @@
         </div>
         <!-- header-image  ends-->
 
-        <h3 class="fw1-bold text-center mt-5 ">CAMPUS AND FACILITIES</h3>
+        <h3 class="fw1-bold text-center mt-5 font2" data-aos="fade-up">CAMPUS AND FACILITIES</h3>
         <!-- top-content -->
         <div class="kart-detail">
 
-            <h4 class="fw-bold fs-3 py-3 mb-3 text-dark gradient-underline container">KARTS</h4>
+            <h4 class=" fs-3 py-3 mb-3 text-dark gradient-underline container font1">KARTS</h4>
 
 
             <p class="container mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dicta distinctio amet unde voluptatibus! Aut totam nobis officiis ad ipsa doloribus eum magnam eveniet! Sapiente rem aperiam reprehenderit pariatur maiores!. Lorem ipsum dolor
@@ -75,7 +85,7 @@
                     <div class="col-lg-6">
                         <img src="assets/kart-1.png" class="campus-main-img" alt="">
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-aos="fade-up">
                         <strong>
               <h4 class="kart-1-features">Lorem ipsum</h4>
             </strong ->
@@ -105,9 +115,9 @@
       <!-- kart-content-2  -->
       <div class="kart-content-2 text-white  mb-5s">
         <div class="container mt-5">
-            <h4 class="fw-bold fs-3 py-3 mb-3 text-light gradient-underline">TRACK</h4>
+            <h4 class=" fs-3 py-3 mb-3 text-light gradient-underline font1" data-aos="fade-up">TRACK</h4>
           <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-up">
               <strong>
                 <h4>Lorem ipsum</h4>
               </strong>
@@ -132,7 +142,7 @@
             </div>
         </div>
         <div class="container py-4 ">
-            <h4 class="fw-bold fs-3 py-3 mb-3 text-dark gradient-underline">THE TRACK</h4>
+            <h4 class=" fs-3 py-3 mb-3 text-dark gradient-underline font1">THE TRACK</h4>
             <img src="assets/track.jpg" width="99%" alt="">
         </div>
         <!-- kart-content-2 ends-->
@@ -140,7 +150,7 @@
         <!-- kart-content-3 -->
         <div class="kart-content-3 MT-5">
             <div class="container py-5">
-                <h4 class="fw-bold fs-3 py-3 mb-3 text-dark gradient-underline">GO KART RACING SAFETY</h4>
+                <h4 class=" fs-3 py-3 mb-3 text-dark gradient-underline font2" data-aos="fade-up">GO KART RACING SAFETY</h4>
                 <!-- safety Flag -->
                 <div class="flag-items">
                     <div class="row">
@@ -148,7 +158,7 @@
                             <img src="assets/all-flags.png" style="width: 95%;" height="95%" alt="">
                         </div>
                         <div class="col-lg-12">
-                            <div class="safety-rules">
+                            <div class="safety-rules" data-aos="fade-up">
                                 <div class="rules mt-4 mb-3">
                                     <h4>Go kart racing safety rules to follow to maximize your experience on our track:</h4>
                                 </div>
@@ -190,7 +200,7 @@
 
                     <div class="col-md-2 col-sm-6 col-xs-12 px-2 text-light">
                         <div class="row-col">
-                            <p class="topic text-light pb-3">Quick Links</p>
+                            <p class="topic text-light pb-3 font2">Quick Links</p>
                             <p><a href="#">Home</a></p>
                             <p><a href="#about">About Us</a></p>
                             <p><a href="#gallery">Gallery</a></p>
@@ -201,7 +211,7 @@
 
                     <div class="col-md-3 col-sm-6 col-xs-12 px-2 text-light">
                         <div class="row-col">
-                            <p class="topic text-light pb-3">Contact us</p>
+                            <p class="topic text-light pb-3 font2">Contact us</p>
                             <p><i class="fas fa-phone-alt"></i> Phone:</p>
                             <p>+91 4684684111</p>
                             <p>+91 7866000000</p>
@@ -212,14 +222,14 @@
 
                     <div class="col-md-3 col-sm-6 col-xs-12 px-2 text-light">
                         <div class="row-last-col">
-                            <p class="topic pb-3">Newsletter</p>
+                            <p class="topic pb-3 font2">Newsletter</p>
 
                             <form class="d-flex" onsubmit="subscribeNewsletter(event,this)">
                                 <input class="form-control" name="subsForNewsletter" type="email" placeholder="Email" required>
                                 <button class="btn btn-light" type="submit"><i class="fab fa-telegram-plane"></i></button>
                             </form>
                             <div class="social-div">
-                                <p class="pt-4 topic">Follow Us</p>
+                                <p class="pt-4 topic font2">Follow Us</p>
 
                                 <a href="" class="p-1"><i
                                         class="fab fa-instagram"></i> </a>
@@ -246,7 +256,14 @@
 
 
 
-
+        <!--DATA AOS JS-->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                offset: 250,
+                duration: 1000,
+            });
+        </script>
 
 
 

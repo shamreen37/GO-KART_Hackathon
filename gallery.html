@@ -14,30 +14,40 @@
     <link rel="stylesheet" href="Css/style.css">
     <link rel="stylesheet" href="Css/media.css">
     <link rel="stylesheet" href="Css/data-aos.css">
+    <link rel="stylesheet" href="Css/style3.css">
     <title>GoKart-Gallery</title>
 </head>
 
 <body>
     <!--NAVBAR -->
-    <section class="navbar-1">
-        <div class="nav-container nav-flex">
-            <img src="assets/logo-img.png" alt="" class="logo">
-            <nav>
-                <input class="menu-btn" type="checkbox" id="menu-btn" />
-                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-                <ul class="menu">
+    <section class="navbar-section">
+        <div class="navbar-container nav-flex container-fluid">
+            <div class="logo">
+                <img src="assets/logo-img.png" alt="" class="logo">
+
+            </div>
+            <div class="navbar">
+
+                <div class="icon-bar" onclick="Show()">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
+
+                <ul id="nav-lists">
+                    <li class="close"><span onclick="Hide()">×</span></li>
                     <li><a class="underline-hover-1" href="index.html">HOME</a></li>
                     <li><a class="underline-hover-1" href="about.html">ABOUT</a></li>
+                    <li><a class="underline-hover-1" href="events.html">EVENTS</a></li>
                     <li><a class="underline-hover-1" href="news.html">NEWS</a></li>
                     <li><a class="underline-hover-1" href="gallery.html">GALLERY</a></li>
                     <li><a class="underline-hover-1" href="campus.html">CAMPUS & FACILITIES</a></li>
                     <li><a class="underline-hover-1" href="contact.html">CONTACT</a></li>
                 </ul>
-            </nav>
+
+            </div>
         </div>
-
     </section>
-
 
 
     <!--================================================================-->
@@ -45,14 +55,14 @@
     <section class="image-set">
         <div class="container mx-lg-auto">
 
-            <h4 class="fw-bold fs-3 py-3 mb-3 text-light gradient-underline">GALLERY</h4>
+            <h4 class="fw-bold fs-3 py-3 mb-3 text-dark gradient-underline font1">GALLERY</h4>
 
             <div class="row gx-lg-5 gx-md-5 gx-sm-1">
                 <div class="col-12 col-lg-4 col-md-4">
                     <div class="row my-4">
 
-                        <div class="card rounded shadow">
-                            <div class="gallery-image">
+                        <div class="card shadow">
+                            <div class="gallery-image" data-aos="fade-up">
                                 <img src="https://source.unsplash.com/srpE-a5W418/400x300" class="img img-fluid rounded">
                             </div>
                             <div class="gallery-content">
@@ -62,7 +72,7 @@
                     </div>
                     <div class="row my-4">
 
-                        <div class="card rounded shadow">
+                        <div class="card shadow" data-aos="fade-up">
                             <div class="gallery-image">
                                 <img src="https://source.unsplash.com/moX0iBfnCs0/400x400" class="img img-fluid rounded">
                             </div>
@@ -73,7 +83,7 @@
                     </div>
                     <div class="row my-4">
 
-                        <div class="card rounded shadow">
+                        <div class="card rounded shadow" data-aos="fade-up">
                             <div class="gallery-image">
                                 <img src="https://source.unsplash.com/FBTcERIsc5E/400x500" class="img-img-fluid rounded">
                             </div>
@@ -86,7 +96,7 @@
                 <div class="col-12 col-lg-4 col-md-4">
                     <div class="row my-4">
 
-                        <div class="card rounded shadow">
+                        <div class="card rounded shadow" data-aos="fade-up">
                             <div class="gallery-image">
                                 <img src="https://source.unsplash.com/itC4cdcVC6I/400x500" class="img img-fluid rounded">
                             </div>
@@ -97,7 +107,7 @@
                     </div>
                     <div class="row my-4">
 
-                        <div class="card rounded shadow">
+                        <div class="card rounded shadow" data-aos="fade-up">
                             <div class="gallery-image">
                                 <img src="https://source.unsplash.com/2icCWJXwOis/400x400" class="img img-fluid rounded">
                             </div>
@@ -108,7 +118,7 @@
                     </div>
                     <div class="row my-4">
 
-                        <div class="card rounded shadow">
+                        <div class="card rounded shadow" data-aos="fade-up">
                             <div class="gallery-image">
                                 <img src="https://source.unsplash.com/eP9pqF1WTlo/400x300" class="img-img-fluid rounded">
                             </div>
@@ -121,7 +131,7 @@
                 <div class="col-12 col-lg-4 col-md-4">
                     <div class="row my-4">
 
-                        <div class="card shadow rounded">
+                        <div class="card shadow rounded" data-aos="fade-up">
                             <div class="gallery-image">
                                 <img src="https://source.unsplash.com/SdNimAHY1Gw/400x300" class="img img-fluid rounded">
                             </div>
@@ -132,7 +142,7 @@
                     </div>
                     <div class="row my-4">
 
-                        <div class="card shadow rounded">
+                        <div class="card shadow rounded" data-aos="fade-up">
                             <div class="gallery-image">
                                 <img src="https://source.unsplash.com/nvzXUaV8uX4/400x400" class="img img-fluid rounded">
                             </div>
@@ -143,7 +153,7 @@
                     </div>
                     <div class="row my-4">
 
-                        <div class="card shadow rounded">
+                        <div class="card shadow rounded" data-aos="fade-up">
                             <div class="gallery-image">
                                 <img src="https://source.unsplash.com/UuCi7XKh0jU/400x500" class="img-img-fluid rounded">
                             </div>

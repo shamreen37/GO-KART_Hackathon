@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="Css/style.css">
     <link rel="stylesheet" href="Css/media.css">
     <link rel="stylesheet" href="Css/data-aos.css">
+    <link rel="stylesheet" href="Css/style3.css">
 
     <title>GoKart-News</title>
 </head>
@@ -23,41 +24,50 @@
     <!---======================================================-->
     <!--  NAVBAR  -->
 
-    <section class="navbar-1">
-        <div class="nav-container nav-flex">
-            <img src="assets/logo-img.png" alt="" class="logo">
-            <nav>
-                <input class="menu-btn" type="checkbox" id="menu-btn" />
-                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-                <ul class="menu">
+    <section class="navbar-section">
+        <div class="navbar-container nav-flex container-fluid">
+            <div class="logo">
+                <img src="assets/logo-img.png" alt="" class="logo">
+
+            </div>
+            <div class="navbar">
+
+                <div class="icon-bar" onclick="Show()">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
+
+                <ul id="nav-lists">
+                    <li class="close"><span onclick="Hide()">×</span></li>
                     <li><a class="underline-hover-1" href="index.html">HOME</a></li>
                     <li><a class="underline-hover-1" href="about.html">ABOUT</a></li>
+                    <li><a class="underline-hover-1" href="events.html">EVENTS</a></li>
                     <li><a class="underline-hover-1" href="news.html">NEWS</a></li>
                     <li><a class="underline-hover-1" href="gallery.html">GALLERY</a></li>
                     <li><a class="underline-hover-1" href="campus.html">CAMPUS & FACILITIES</a></li>
                     <li><a class="underline-hover-1" href="contact.html">CONTACT</a></li>
                 </ul>
-            </nav>
-        </div>
 
+            </div>
+        </div>
     </section>
 
 
 
-
     <!--=============================================================-->
-    <section class="news py-4" id="#news">
+    <section class="news py-5 text-dark" id="#news">
         <div class="container mx-auto">
-            <h4 class="fw-bold fs-3 py-3 mb-3 text-light gradient-underline">News</h4>
+            <h4 class="fw-bold fs-3  mb-4 text-dark gradient-underline font1" data-aos="fade-up">News</h4>
             <div class="row">
 
-                <div class="col-12 col-sm-12 col-md-12 col-lg-6  mb-2 order-lg-2 order-md-3 order-sm-3">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6  mb-2 order-lg-2 order-md-3 order-sm-3 " data-aos="fade-up">
                     <div class=" container card border-0 mr-0 px-0 bg-transparent text-light">
                         <div class="news-middle ">
                             <div class="news-middle-img">
                                 <img src="assets/news1.jpeg" class="img img-fluid w-100">
                                 <div class="content">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, sed.
+                                    <p class="fw-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, sed.
                                     </p><br>
                                     <button type="button" class="btn btn-outline btn-sm mt-1 outline-red">Read full
                                     article</button>
@@ -66,20 +76,20 @@
                                 </div>
                             </div>
 
-                            <div class="news-middle-content text-light">
-                                <h5 class="fs-5 fw-bold">Lorem ipsum dolor sit amet consectetur.</h5>
+                            <div class="news-middle-content text-dark" data-aos="fade-up">
+                                <h5 class="fs-5 fw-bold mt-3">Lorem ipsum dolor sit amet consectetur.</h5>
 
                                 <h6 class="fs-6 fw-bold">Lorem ipsum dolor sit amet.</h6>
                                 <p class="fw-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti tenetur odio quis, illum non cum dicta nihil accusamus corrupti, vero neque maxime fugit veritatis. At cum distinctio dolorum corporis porro.
                                     <br>
-                                    <button type="button" class="btn btn-outline-primary btn-sm mt-1 outline-red">Read More</button>
+                                    <button type="button" class="btn btn-outline-primary btn-sm mt-3 outline-red">Read More</button>
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3  mb-2 order-lg-1">
-                    <div class="card news-left border-0 border-bottom bg-transparent text-light">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3  mb-2 order-lg-1" data-aos="fade-up">
+                    <div class="card news-left border-0  bg-transparent text-light">
                         <img src="assets/news2.jpeg" class="card-img-top img-fluid" alt="...">
                         <div class="card-body px-0">
                             <h5 class="card-title fw-bold py-0 my-0 fs-6">Lorem ipsum dolor sit amet.</h5>
@@ -94,7 +104,7 @@
 
 
                     </div>
-                    <div class="card news-left border-0 mt-2  bg-transparent text-light">
+                    <div class="card news-left border-0 mt-2  bg-transparent text-light" data-aos="fade-up">
                         <img src="assets/news3.jfif" class="card-img-top img-fluid" alt="...">
                         <div class="card-body px-0">
                             <h5 class="card-title fw-bold py-0 my-0 fs-6">Lorem ipsum dolor sit amet.</h5>
@@ -111,7 +121,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3  news-right order-lg-3 mb-2">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3  news-right order-lg-3 mb-2" data-aos="fade-up">
                     <div class="card border-0  bg-transparent text-light border-bottom pb-2">
                         <div class="card-body px-0 py-0">
                             <h5 class="card-title fw-bold py-0 my-0 fs-6">
@@ -124,7 +134,7 @@
                         </div>
                     </div>
                     <hr>
-                    <div class="card border-0  bg-transparent text-light border-bottom pb-2">
+                    <div class="card border-0  bg-transparent text-light border-bottom pb-2" data-aos="fade-up">
                         <div class="card-body px-0 py-0">
                             <h5 class="card-title fw-bold py-0 my-0 fs-6">
                                 <p class="my-0"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -136,7 +146,7 @@
                         </div>
                     </div>
                     <hr>
-                    <div class="card border-0  bg-transparent text-light border-bottom pb-2">
+                    <div class="card border-0  bg-transparent text-light border-bottom pb-2" data-aos="fade-up">
                         <div class="card-body px-0 py-0">
                             <h5 class="card-title fw-bold py-0 my-0 fs-6">
                                 <p class="my-0"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -148,7 +158,7 @@
                         </div>
                     </div>
                     <hr>
-                    <div class="card border-0  bg-transparent text-light border-bottom pb-2">
+                    <div class="card border-0  bg-transparent text-light border-bottom pb-2" data-aos="fade-up">
                         <div class="card-body px-0 py-0">
                             <h5 class="card-title fw-bold py-0 my-0 fs-6">
                                 <p class="my-0"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -160,7 +170,7 @@
                         </div>
                     </div>
                     <hr>
-                    <div class="card border-0  bg-transparent text-light border-bottom pb-2">
+                    <div class="card border-0  bg-transparent text-light border-bottom pb-2" data-aos="fade-up">
                         <div class="card-body px-0 py-0">
                             <h5 class="card-title fw-bold py-0 my-0 fs-6">
                                 <p class="my-0"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -172,7 +182,7 @@
                         </div>
                     </div>
                     <hr>
-                    <div class="card border-0  bg-transparent text-light pb-2">
+                    <div class="card border-0  bg-transparent text-light pb-2" data-aos="fade-up">
                         <div class="card-body px-0 py-0">
                             <h5 class="card-title fw-bold py-0 my-0 fs-6">
                                 <p class="my-0"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -198,8 +208,8 @@
     <!---========================================================================-->
 
     <section>
-        <div class="container mx-auto achievements py-4">
-            <h5 class="fw-bold fs-3 py-3 gradient-underline">Achievements</h5>
+        <div class="container mx-auto achievements py-5">
+            <h5 class="fw-bold fs-3 py-3 mb-4 gradient-underline font1">Achievements</h5>
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-9">
                     <div class="achieve-left-img">
@@ -278,12 +288,12 @@
 
     <!--===============================================================================-->
 
-    <section id="more" class="text-light">
-        <div class="container mx-auto py-4">
-            <h4 class="fw-bold fs-3 py-3 gradient-underline">MORE</h4>
+    <section id="more" class="text-dark">
+        <div class="container mx-auto py-5">
+            <h4 class="fw-bold fs-3 py-3 mb-4 gradient-underline font1" data-aos="fade-up">MORE</h4>
             <div class="row">
 
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3 news-right mb-2 order-lg-1">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 news-right mb-2 order-lg-1" data-aos="fade-up">
                     <div class="card border-0">
                         <div class="card-body px-0 py-0">
                             <h5 class="card-title fw-bold py-0 my-0 fs-6">
@@ -364,7 +374,7 @@
 
 
                 </div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-6 mb-2 order-lg-2 order-md-3 order-sm-3 ">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 mb-2 order-lg-2 order-md-3 order-sm-3 " data-aos="fade-up">
                     <div class="container card border-0 mr-0 px-0">
                         <div class="news-middle ">
                             <div class="news-middle-img">
@@ -389,7 +399,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-2  order-lg-3">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-2  order-lg-3" data-aos="fade-up">
                     <div class="card news-left border-0 border-bottom">
                         <img src="assets/news7.jfif" class="card-img-top img-fluid" alt="...">
                         <div class="card-body px-0">
@@ -432,8 +442,8 @@
 
     <!--================================================================-->
     <section>
-        <div class="container mx-auto videos py-4">
-            <h4 class="fw-bold fs-3 py-3 gradient-underline">Videos</h4>
+        <div class="container mx-auto videos py-5">
+            <h4 class="fw-bold fs-3 py-3 mb-3 gradient-underline font1">Videos</h4>
             <div class="row gx-lg-5">
                 <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                     <div class="cards">
@@ -610,7 +620,7 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init({
-            offset: 250,
+            offset: 100,
             duration: 1000,
         });
     </script>

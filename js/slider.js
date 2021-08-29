@@ -79,6 +79,7 @@ owl.owlCarousel({
     nav: false,
     margin: 10,
     dots: false,
+    stagePadding: 15,
     responsive: {
         0: {
             items: 1
@@ -116,6 +117,9 @@ $('.event-carousel').owlCarousel({
         },
         600: {
             items: 1
+        },
+        768: {
+            items: 2
         },
         1000: {
             items: 3

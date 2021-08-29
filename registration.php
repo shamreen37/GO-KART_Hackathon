@@ -38,13 +38,13 @@
 
                 <ul id="nav-lists">
                     <li class="close"><span onclick="Hide()">×</span></li>
-                    <li><a class="underline-hover-1" href="index.php">HOME</a></li>
-                    <li><a class="underline-hover-1" href="about.php">ABOUT</a></li>
-                    <li><a class="underline-hover-1" href="events.php">EVENTS <span class="new">New</span></a></li>
-                    <li><a class="underline-hover-1" href="news.php">NEWS</a></li>
-                    <li><a class="underline-hover-1" href="gallery.php">GALLERY</a></li>
-                    <li><a class="underline-hover-1" href="campus.php">CAMPUS & FACILITIES</a></li>
-                    <li><a class="underline-hover-1" href="contact.php">CONTACT</a></li>
+                    <li><a class="underline-hover-1" href="index.php">Home</a></li>
+                    <li><a class="underline-hover-1" href="about.php">About</a></li>
+                    <li><a class="underline-hover-1" href="events.php">Events <span class="new">New</span></a></li>
+                    <li><a class="underline-hover-1" href="news.php">News</a></li>
+                    <li><a class="underline-hover-1" href="gallery.php">Gallery</a></li>
+                    <li><a class="underline-hover-1" href="campus.php">Campus & Facilities</a></li>
+                    <li><a class="underline-hover-1" href="contact.php">Contact</a></li>
                 </ul>
 
             </div>

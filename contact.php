@@ -38,13 +38,13 @@
 
                 <ul id="nav-lists">
                     <li class="close"><span onclick="Hide()">×</span></li>
-                    <li><a class="underline-hover-1" href="index.php">HOME</a></li>
-                    <li><a class="underline-hover-1" href="about.php">ABOUT</a></li>
-                    <li><a class="underline-hover-1" href="events.php">EVENTS <span class="new">New</span></a></li>
-                    <li><a class="underline-hover-1" href="news.php">NEWS</a></li>
-                    <li><a class="underline-hover-1" href="gallery.php">GALLERY</a></li>
-                    <li><a class="underline-hover-1" href="campus.php">CAMPUS & FACILITIES</a></li>
-                    <li><a class="underline-hover-1" href="contact.php">CONTACT</a></li>
+                    <li><a class="underline-hover-1" href="index.php">Home</a></li>
+                    <li><a class="underline-hover-1" href="about.php">About</a></li>
+                    <li><a class="underline-hover-1" href="events.php">Event <span class="new">New</span></a></li>
+                    <li><a class="underline-hover-1" href="news.php">News</a></li>
+                    <li><a class="underline-hover-1" href="gallery.php">Gallery</a></li>
+                    <li><a class="underline-hover-1" href="campus.php">Campus & Facilities</a></li>
+                    <li><a class="underline-hover-1" href="contact.php">Contact</a></li>
                 </ul>
 
             </div>
@@ -53,7 +53,7 @@
     <!--==================================================================-->
     <section class="contact-section">
         <div class="container-fluid contact-container">
-            <div class="row ps-0">
+            <div class="row gx-0">
                 <div class="col-md-5">
                     <div class="contact-content">
                         <div class="content1">
@@ -74,9 +74,9 @@
                     </div>
                 </div>
                 <div class="col-md-7">
-                    <div class="contact-form">
+                    <div class="contact-form py-3">
                         <form id="contactform" action="" method="post" class="form-tag">
-                            <h4 class="fs-3 py-2 mb-3 text-dark gradient-underline font1">Contact</h4>
+                            <h4 class="fs-3 py-2 mb-4 text-dark gradient-underline font1">Contact</h4>
 
                             <div class="mb-4">
 

@@ -53,17 +53,17 @@
         <!--=======================================================
         --REGISTRATION-->
         <section>
-            <div class="container-fluid registration-container">
+            <div class="container-fluid registration-container py-3">
                 <div class="registration-img-div">
 
                 </div>
 
 
                 <div class="registration-right-div">
-                    <div class="btn-div">
+                    <div class="btn-div mb-3">
                         <h4 class="fs-3 mb-3 mt-4 text-dark gradient-underline font1">Contact</h4>
-                        <button class="btn btn-primary under mb-2 font2" id="btn1">Team Registration</button>
-                        <button class="btn btn-primary mb-2 font2" id="btn2">Member Registeration</button>
+                        <button class="btn btn-primary under mb-5 font2" id="btn1">Team Registration</button>
+                        <button class="btn btn-primary mb-4 font2" id="btn2">Member Registeration</button>
                     </div>
                     <!--FIRST REGISTRATION FORM-->
                     <div class="registration-div d-block" id="reg1">

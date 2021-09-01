@@ -122,7 +122,7 @@
                 </div>
 
                 <div class="col-12 col-sm-6 col-md-6 col-lg-3  news-right order-lg-3 mb-2" data-aos="fade-up">
-                    <div class="card border-0  bg-transparent text-light border-bottom pb-2">
+                    <div class="card border-0  bg-transparent text-light pb-2">
                         <div class="card-body px-0 py-0">
                             <h5 class="card-title fw-bold py-0 my-0 fs-6">
                                 <p class="my-0"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -134,7 +134,7 @@
                         </div>
                     </div>
                     <hr>
-                    <div class="card border-0  bg-transparent text-light border-bottom pb-2" data-aos="fade-up">
+                    <div class="card border-0  bg-transparent text-light pb-2" data-aos="fade-up">
                         <div class="card-body px-0 py-0">
                             <h5 class="card-title fw-bold py-0 my-0 fs-6">
                                 <p class="my-0"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -146,7 +146,7 @@
                         </div>
                     </div>
                     <hr>
-                    <div class="card border-0  bg-transparent text-light border-bottom pb-2" data-aos="fade-up">
+                    <div class="card border-0  bg-transparent text-light pb-2" data-aos="fade-up">
                         <div class="card-body px-0 py-0">
                             <h5 class="card-title fw-bold py-0 my-0 fs-6">
                                 <p class="my-0"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -158,7 +158,7 @@
                         </div>
                     </div>
                     <hr>
-                    <div class="card border-0  bg-transparent text-light border-bottom pb-2" data-aos="fade-up">
+                    <div class="card border-0  bg-transparent text-light pb-2" data-aos="fade-up">
                         <div class="card-body px-0 py-0">
                             <h5 class="card-title fw-bold py-0 my-0 fs-6">
                                 <p class="my-0"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -170,7 +170,7 @@
                         </div>
                     </div>
                     <hr>
-                    <div class="card border-0  bg-transparent text-light border-bottom pb-2" data-aos="fade-up">
+                    <div class="card border-0  bg-transparent text-light pb-2" data-aos="fade-up">
                         <div class="card-body px-0 py-0">
                             <h5 class="card-title fw-bold py-0 my-0 fs-6">
                                 <p class="my-0"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.

@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="shortcut icon" href="assets/favicon.png" type="assets/x-icon" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="Css/style4.css">
     <link rel="stylesheet" href="Css/style.css">
